@@ -1,0 +1,43 @@
+import { Apartment } from '@/types/apartment'
+
+export const apartments: Apartment[] = [
+  {
+    id: 1,
+    title: '2+1 Modern Apartment in Kadıköy',
+    rent: 25000,
+    district: 'Kadıköy',
+    walkingDistance: 12,
+    hasCombi: true,
+    score: 8.5,
+    images: [
+      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800',
+      'https://images.unsplash.com/photo-1502672260066-6bc36a2c5a73?w=800',
+    ],
+    lat: 40.9900,
+    lng: 29.0300,
+    bedrooms: 2,
+    size: 110,
+    floor: 3,
+    features: ['Furnished', 'Balcony', 'Natural Gas', 'Parking'],
+    description: 'Beautiful modern apartment close to metro station',
+  },
+  {
+    id: 2,
+    title: '3+1 Spacious Flat in Beşiktaş',
+    rent: 35000,
+    district: 'Beşiktaş',
+    walkingDistance: 8,
+    hasCombi: true,
+    score: 9.2,
+    images: [
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800',
+      'https://images.unsplash.com/photo-1502672023488-70e25813eb80?w=800',
+    ],
+    lat: 41.0400,
+    lng: 29.0000,
+    bedrooms: 3,
+    size: 140,
+    floor: 5,
+    features: ['Sea View', 'Elevator', 'Security', 'Combi'],
+    description: 'Stunning sea view apartment in prime location',
+  },
